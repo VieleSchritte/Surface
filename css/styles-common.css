@@ -1,0 +1,40 @@
+.welcome {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	box-sizing: content-box;
+	align-items: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+
+.app-list, .app-list-member {
+	display: flex;
+}
+
+.app-img {
+	height: 48px;
+}
+
+.but-app {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.text-app, .span-app {
+	text-transform: uppercase;
+}
+
+@media (min-width: 1300px) {
+	.logo-img {
+		width: 190px;
+		height: 24px;
+		margin-top: 58px;
+	}
+}
