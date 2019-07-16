@@ -1,9 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'OpenSans', Arial, sans-serif;
+}
+
+@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Regular.woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Bold.woff");
+	font-weight: 700;
+	font-style: normal;
+}
+
 .welcome {
 	display: flex;
+	position: relative;
 	flex-wrap: wrap;
 	flex-direction: column;
 	box-sizing: content-box;
 	align-items: center;
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.welcome::after {
+	content: "";
+	background-color: #202448;
+	opacity: 0.75;
+
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.logo-img {
+	width: 10%;
+	margin-top: 3%;
+	z-index: 2;
+	fill: #ffffff;
+}
+
+.main-header {
+	z-index: 2;
+	color: #ffffff;
+	margin-top: 20.5%;
+}
+
+.app-list {
+	z-index: 2;
+}
+
+.app-list-member:nth-of-type(even) {
+	margin-left: 2.6%;
+	margin-right: 2.6%;
+}
+
+.but-app {
+	height: ;
+	background-color: #5e42b0;
+	border: 0;
+	color: #ffffff;
+	border-radius: 5%;
+	padding: 1.4%;
 }
 
 ul {
@@ -20,6 +89,7 @@ h1, h2 {
 
 .app-img {
 	height: 48px;
+	fill: #ffffff;
 }
 
 .but-app {
@@ -32,9 +102,25 @@ h1, h2 {
 }
 
 @media (min-width: 1300px) {
-	.logo-img {
-		width: 190px;
-		height: 24px;
-		margin-top: 58px;
+	.welcome {
+		background-image: url("../images/football_1920.jpg");
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1299px) {
+	.welcome {
+		background-image: url("../images/football_1280.jpg");
+	}
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+	.welcome {
+		background-image: url("../images/football_767.jpg");
+	}
+}
+
+@media (max-width: 320px) {
+	.welcome {
+		background-image: url("../images/football-801047.jpg");
 	}
 }
