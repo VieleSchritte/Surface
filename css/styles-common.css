@@ -18,6 +18,14 @@ body {
 	font-style: normal;
 }
 
+ul {
+	list-style-type: none;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+
 .welcome {
 	display: flex;
 	position: relative;
@@ -54,11 +62,16 @@ body {
 .main-header {
 	z-index: 2;
 	color: #ffffff;
-	margin-top: 20.5%;
+	margin-top: 15.4%;
+	margin-bottom: 11.6%;
 }
 
 .app-list {
 	z-index: 2;
+	display: flex;
+	margin-bottom: 5.7%;
+	margin-top: 0;
+	padding: 0;
 }
 
 .app-list-member:nth-of-type(even) {
@@ -67,60 +80,99 @@ body {
 }
 
 .but-app {
-	height: ;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
 	background-color: #5e42b0;
 	border: 0;
 	color: #ffffff;
 	border-radius: 5%;
-	padding: 1.4%;
+	padding: auto;
 }
 
-ul {
-	list-style-type: none;
-}
-
-h1, h2 {
-	text-transform: uppercase;
-}
-
-.app-list, .app-list-member {
+.but-img {
 	display: flex;
 }
 
 .app-img {
+	display: flex;
 	height: 48px;
 	fill: #ffffff;
 }
 
-.but-app {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 .text-app, .span-app {
 	text-transform: uppercase;
+	margin: 0;
 }
 
-@media (min-width: 1300px) {
-	.welcome {
-		background-image: url("../images/football_1920.jpg");
-	}
+
+
+
+
+
+
+.footer {
+	display: flex;
+	position: relative;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-@media (min-width: 768px) and (max-width: 1299px) {
-	.welcome {
-		background-image: url("../images/football_1280.jpg");
-	}
+.footer::after {
+	content: "";
+	background-color: #202448;
+	opacity: 0.75;
+
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
-@media (min-width: 321px) and (max-width: 767px) {
+.footer-header-high, .footer-header-low {
+	color: white;
+	z-index: 2;
+}
+
+@media (max-width: 767px) {
 	.welcome {
 		background-image: url("../images/football_767.jpg");
 	}
-}
 
-@media (max-width: 320px) {
-	.welcome {
-		background-image: url("../images/football-801047.jpg");
+	.footer {
+		background-image: url("../images/game_767.jpg")
 	}
 }
+
+@media (min-width: 768px) and (max-width: 1280px) {
+	.welcome {
+		background-image: url("../images/football_1280.jpg")
+	}
+
+	.footer {
+		background-image: url("../images/game_1280.jpg")
+	}
+}
+
+@media (min-width: 1282px) {
+	.welcome {
+		background-image: url("../images/football_1920.jpg");
+	}
+
+	.footer {
+		background-image: url("../images/game_1920.jpg")
+	}
+}
+
+@media (max-width: 192px) {}
+
+@media (min-width: 193px) and (max-width: 497px) {}
+
+@media (min-width: 498px) {}
