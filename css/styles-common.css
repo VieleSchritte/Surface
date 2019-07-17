@@ -26,6 +26,10 @@ h1, h2 {
 	text-transform: uppercase;
 }
 
+path {
+	fill: white;
+}
+
 .welcome {
 	display: flex;
 	position: relative;
