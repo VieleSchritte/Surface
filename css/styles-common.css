@@ -42,7 +42,7 @@ h1, h2 {
 .welcome::after {
 	content: "";
 	background-color: #202448;
-	opacity: 0.75;
+	opacity: 0.8;
 
 	position: absolute;
 	z-index: 1;
