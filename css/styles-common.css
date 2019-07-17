@@ -143,6 +143,11 @@ path {
 	z-index: 2;
 }
 
+.logo-img-footer {
+	width: 10%;
+	z-index: 2;
+}
+
 @media (max-width: 767px) {
 	.welcome {
 		background-image: url("../images/football_767.jpg");
