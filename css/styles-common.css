@@ -90,6 +90,7 @@ path {
 	color: #ffffff;
 	border-radius: 5%;
 	padding: auto;
+	align-items: center;
 }
 
 .but-img {
@@ -97,7 +98,6 @@ path {
 }
 
 .app-img {
-	display: flex;
 	height: 48px;
 }
 
