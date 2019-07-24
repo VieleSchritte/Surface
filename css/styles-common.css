@@ -160,7 +160,7 @@ path {
 
 .divider::after {
 	box-sizing: border-box;
-	content:"";
+	content: "";
 	display: block;
 	width: 1%;
 	height: 0.26%;
@@ -170,10 +170,21 @@ path {
 
 .divider-white::after {
 	background-color: white;
+	content: "";
+	display: block;
+	width: 1%;
+	height: 0.26%;
+	margin:0.3% auto 0;
+
 }
 
 .divider-light::after {
 	background-color: #8f7bc8;
+	content: "";
+	display: block;
+	width: 1%;
+	height: 0.26%;
+	margin:0.3% auto 0;
 }
 
 
