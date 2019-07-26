@@ -56,57 +56,35 @@ path {
 	right: 0;
 }
 
-.logo-img {
+.logo-img, .app-list {
 	z-index: 2;
 }
 
 .main-header {
 	z-index: 2;
 	color: #ffffff;
-	margin-bottom: 0;
-	width: inherit;
-}
-
-.first {
-	margin-top: 15.4%;
-}
-
-.second {
-	margin-top: 0;
-	margin-bottom: 11.6%;
+	margin: 0;
 }
 
 .app-list {
-	z-index: 2;
-	margin-bottom: 5.7%;
-	margin-top: 0;
 	padding: 0;
-}
-
-.app-list-member:nth-of-type(even) {
-	margin-left: 2.6%;
-	margin-right: 2.6%;
+	margin: 0;
 }
 
 .but-app {
 	display: flex;
-	box-sizing: content-box;
 	background-color: #5e42b0;
 	border: 0;
 	color: #ffffff;
-	border-radius: 5%;
-	padding: auto;
+	padding: 0;
+	justify-content: center;
 	align-items: center;
 }
 
-.app-img {
-	height: 48px;
-}
 
 .text-app, .span-app {
 	text-transform: uppercase;
 	margin: 0;
-	font-size: 11px;
 }
 
 .span-app {
@@ -126,6 +104,7 @@ path {
 	background-color: white;
 }
 
+/*background-colors for points*/
 .one-two {
 	background-color: #f6f4fa;
 }
@@ -141,6 +120,8 @@ path {
 .two-three {
 	background-color: #0a0e34;
 }
+
+/*end background-colors for points*/
 
 .num-hed {
 	display: flex;
@@ -237,10 +218,6 @@ path {
 	margin-right: 2%;
 }
 
-.but-img-foot {
-
-}
-
 .footer-header-high, .footer-header-low {
 	color: white;
 	margin: 0;
@@ -257,7 +234,7 @@ path {
 }
 
 /*phones*/
-@media (max-width: 414px) {
+@media (max-width: 415px) {
 	.welcome {
 		background-image: url("../images/football_767.jpg")
 	}
@@ -267,48 +244,145 @@ path {
 		margin-top: 13.125%;
 	}
 
-	.main-header {
+	.app-list {
+		width: 87.5%;
+		padding: 0;
 		margin-left: 6.25%;
-		font-size: 6.56%;
+		margin-right: 6.25%;
+	}
+
+	.app-list-member {
+		margin-right: 0;
+	}
+
+	.app-list-member:nth-of-type(2) {
+		margin-top: 4.375%;
+		margin-bottom: 26.25%;
+	}
+
+	.but-app {
+		width: inherit;
+		border-radius: 16px;
+		padding-top: 3%;
+		padding-bottom: 2.86%;
+	}
+
+	.button-text {
+		font-size: 53%;
+		text-align: left;
+	}
+
+	.app-img {
+		width: 7.14%;
+		margin-right: 3.2%;
+	}
+
+	.footer {
+		background-image: url("../images/game_767.jpg");
 	}
 }
 
 /*tablets*/
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 416px) and (max-width: 1025px) {
 	.welcome {
-		background-image: url("../images/football_1280.jpg")
+		background-image: url("../images/football_1280.jpg");
 	}
 
 	.logo-img {
-		width: 26.5425%
+		width: 26.5425%;
 		margin-top: 6.9%;
+		margin-bottom: 6.898%;
 	}
 
 	.main-header {
-		margin-left: 11.7%;
+		font-size: 287%;
+	}
+
+	.second {
+		margin-bottom: 40.603%;
 	}
 
 	.app-list {
 		display: flex;
+		margin: 0 7.549% 11.85% 7.549%;
+	}
+
+	.app-list-member:nth-of-type(odd) {
+		margin-right: 4.599%;
+	}
+
+	.but-app {
+		border-radius: 32px;
+		padding-top: 4.9%;
+		padding-bottom: 4.9%;
+	}
+
+	.app-img {
+		width: 11.09%;
+		margin-right: 8.32%;
+	}
+
+	.button-text {
+		text-align: left;
+		font-size: 83%;
+	}
+
+	.footer {
+		background-image: url("../images/game_1280.jpg");
 	}
 }
 
 /*desktops*/
-@media (min-width: 1025px) {
+@media (min-width: 1026px) {
 	.welcome {
-		background-image: url("../images/football_1920.jpg")
+		background-image: url("../images/football_1920.jpg");
 	}
 
 	.logo-img {
-		width: 9.89%;
-		margin-top: 3.02%;
+		width: 13.505%;
+		margin-top: 3.199%;
+		margin-bottom: 21.036%;
 	}
 
 	.main-header {
+		font-size: 406.5%;
+	}
+
+	.first {
 		margin-left: 10%;
 	}
 
 	.app-list {
 		display: flex;
+		box-sizing: border-box;
+		margin-top: 15.851%;
+		margin-bottom: 7.82%;
+	}
+
+	.app-list-member {
+		margin: 0;
+	}
+
+	.app-list-member:nth-of-type(1) {
+		margin-right: 6.032%;
+	}
+
+	.but-app {
+		border-radius: 32px;
+		padding-top: 2.7%;
+		padding-bottom: 2.7%;
+	}
+
+	.app-img {
+		width: 12.9%;
+		margin-right: 8.025%;
+	}
+
+	.button-text {
+		text-align: left;
+	}
+
+	.footer {
+		background-image: url("../images/game_1920.jpg");
 	}
 }
