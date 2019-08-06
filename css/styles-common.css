@@ -24,6 +24,7 @@ ul {
 
 h1, h2, h3 {
 	text-transform: uppercase;
+	margin: 0;
 }
 
 path {
@@ -286,7 +287,21 @@ path {
 	}
 
 	.section-img {
-		margin-left: 22.185%
+		margin-left: 22.185%;
+		width: 54.065%;
+	}
+
+	.profit-list-member {
+		padding-left: 6%;
+		padding-right: 6%;
+	}
+
+	.profit-number {
+		margin-right: 3.555%;
+	}
+
+	.profit-header {
+		margin-left: 3.555%;
 	}
 
 	.footer {
