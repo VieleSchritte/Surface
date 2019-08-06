@@ -100,6 +100,10 @@ path {
 	margin: 0;
 }
 
+.profit-list {
+	padding: 0;
+}
+
 .profit-list-member:nth-of-type(1) {
 	background-color: white;
 }
@@ -275,6 +279,14 @@ path {
 	.app-img {
 		width: 7.14%;
 		margin-right: 3.2%;
+	}
+
+	.section-header {
+		margin: 7.815% 0 5.94% 7.8%;
+	}
+
+	.section-img {
+		margin-left: 22.185%
 	}
 
 	.footer {
