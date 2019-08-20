@@ -155,7 +155,7 @@ path {
 	box-sizing: border-box;
 	content: "";
 	display: block;
-	width: 1%;
+	width: 100%;
 	height: 0.26%;
 	margin:0.3% auto 0;
 	background-color: #f6f4fa;
@@ -165,8 +165,8 @@ path {
 	background-color: white;
 	content: "";
 	display: block;
-	width: 1%;
-	height: 0.26%;
+	width: 100%;
+	height: 3px;
 	margin:0.3% auto 0;
 
 }
@@ -175,7 +175,7 @@ path {
 	background-color: #8f7bc8;
 	content: "";
 	display: block;
-	width: 1%;
+	width: 100%;
 	height: 0.26%;
 	margin:0.3% auto 0;
 }
