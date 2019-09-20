@@ -31,6 +31,10 @@ path {
 	fill: white;
 }
 
+header, main, footer {
+	width: 102%;
+}
+
 .welcome {
 	display: flex;
 	position: relative;
@@ -101,6 +105,7 @@ path {
 
 .sec-num {
 	font-weight: bold;
+	color: white;
 }
 
 .section-header {
@@ -125,7 +130,7 @@ path {
 	background-color: #f5f6f7;
 }
 
-.one-three {
+.one-three, .square-back {
 	background-color: #5e42b0;
 }
 
@@ -134,6 +139,13 @@ path {
 }
 
 /*end background-colors for points*/
+
+.square-back {
+	width: 21.9%;
+	height: 21.9%;
+	display: flex;
+	justify-content: center;
+}
 
 .num-hed {
 	display: flex;
@@ -159,13 +171,12 @@ path {
 }
 
 .divider::after {
-	box-sizing: border-box;
+	background-color: #f6f4fa;
 	content: "";
 	display: block;
 	width: 100%;
-	height: 0.26%;
-	margin:0.3% auto 0;
-	background-color: #f6f4fa;
+	height: 3px;
+	margin: 0.3% auto 0;
 }
 
 .divider-white::after {
@@ -174,8 +185,7 @@ path {
 	display: block;
 	width: 100%;
 	height: 3px;
-	margin:0.3% auto 0;
-
+	margin: 0.3% auto 0;
 }
 
 .divider-light::after {
@@ -183,8 +193,8 @@ path {
 	content: "";
 	display: block;
 	width: 100%;
-	height: 0.26%;
-	margin:0.3% auto 0;
+	height: 3px;
+	margin: 0.3% auto 0;
 }
 
 
@@ -330,8 +340,7 @@ path {
 	}
 
 	.profit-list-member {
-		padding-left: 6%;
-		padding-right: 6%;
+		padding: 18.1% 6% 18.1% 6%;
 		box-sizing: content-box;
 	}
 
@@ -344,7 +353,12 @@ path {
 	}
 
 	.profit-content {
-		margin-bottom: 18.1%;
+		font-size: 16px;
+	}
+
+	.sec-num {
+		width: 21.9%;
+		padding: auto;
 	}
 
 	.footer {
