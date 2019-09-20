@@ -67,11 +67,11 @@ header, main, footer {
 	z-index: 2;
 }
 
-.main-header {
+.headers {
+	margin: 0 auto 0 auto;
 	z-index: 2;
-	color: #ffffff;
-	margin: 0;
 	width: 100%;
+	color: #ffffff;
 }
 
 .app-list {
@@ -117,11 +117,11 @@ header, main, footer {
 	padding: 0;
 }
 
-.profit-list-member:nth-of-type(1) {
-	background-color: white;
+/*background-colors for points*/
+.one-one {
+	background-color: #fafafa;
 }
 
-/*background-colors for points*/
 .one-two {
 	background-color: #f6f4fa;
 }
@@ -263,28 +263,28 @@ header, main, footer {
 
 	.logo-img {
 		width: 41.56%;
-		margin-top: 13.125%;
+		/*margin-top: 13.125%;*/
+		margin: 10.12% auto 32.64% auto; 
 	}
 
-	.main-header {
+	.header-first, .header-second {
 		font-size: 131.25%;
 	}
 
-	.first {
-		margin-left: 6.25%;
-		margin-top: 42.5%;
+	.header-first {
+		margin-left: 6.13%;
 	}
 
-	.second {
+	.header-second {
 		margin-left: 20%;
-		margin-bottom: 27.9%;
 	}
 
 	.app-list {
 		width: 87.5%;
 		padding: 0;
-		margin-left: 6.25%;
-		margin-right: 6.25%;
+		margin: 21.205% auto 0 auto;
+		/*margin-left: 6.25%;
+		margin-right: 6.25%;*/
 	}
 
 	.app-list-member {
@@ -318,7 +318,7 @@ header, main, footer {
 	}
 
 	.section-header {
-		margin: 7.815% 0 5.94% 7.8%;
+		margin: 7.815% 0 5.94% 6.44%;
 	}
 
 	.athlets-players {
@@ -375,7 +375,7 @@ header, main, footer {
 	.logo-img {
 		width: 26.5425%;
 		margin-top: 6.9%;
-		margin-bottom: 6.898%;
+		margin-bottom: 23.1%;
 	}
 
 	.big-img {
@@ -384,8 +384,16 @@ header, main, footer {
 		height: 50%;
 	}
 
-	.main-header {
-		font-size: 287%;
+	.headers {
+		margin-
+	}
+
+	.header-first {
+		margin-left: 11.5%;
+	}
+
+	.header-second {
+		margin-left: 25.27%;
 	}
 
 	.second {
@@ -394,7 +402,7 @@ header, main, footer {
 
 	.app-list {
 		display: flex;
-		margin: 0 7.549% 11.85% 7.549%;
+		margin: 39.8% 7.549% 11.85% 7.549%;
 	}
 
 	.app-list-member:nth-of-type(odd) {
@@ -439,12 +447,12 @@ header, main, footer {
 		margin-bottom: 21.036%;
 	}
 
-	.main-header {
-		font-size: 406.5%;
+	.header-first {
+		margin-left: 13.45%;
 	}
 
-	.first {
-		margin-left: 10%;
+	.header-second {
+		margin-left: 44.89%;
 	}
 
 	.app-list {
