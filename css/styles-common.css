@@ -121,7 +121,7 @@ header, main, footer {
 	flex-direction: row-reverse;
 }
 
-.sec-num {
+.sec-num, .sec-num-aside {
 	font-weight: bold;
 	color: white;
 }
@@ -255,15 +255,15 @@ header, main, footer {
 .foot-but-group {
 	display: flex;
 	z-index: 2;
-	margin-top: 12%;
-	margin-bottom: 7.8%;
 }
 
 .footer-button {
-	width: 6.7%;
 	background-color: #6447ba;
 	border: 0;
-	margin-right: 2%;
+}
+
+.but-img-foot {
+	width: 6em;
 }
 
 .footer-header-high, .footer-header-low {
@@ -290,8 +290,12 @@ header, main, footer {
 	}
 
 	.logo-img {
-		width: 41.56%;
+		width: calc(133em/8);
 		margin: 10.12% auto 32.64% auto; 
+	}
+
+	.headers {
+		font-size: 3.5em;
 	}
 
 	.header-first {
@@ -333,8 +337,13 @@ header, main, footer {
 		margin-right: 3.2%;
 	}
 
+	.content {
+		font-size: 50px;
+	}
+
 	.section-header {
 		margin: 7.815% 0 5.94% 6.44%;
+		font-size: 1.75em;
 	}
 
 	.section-container {
@@ -371,16 +380,59 @@ header, main, footer {
 
 	.profit-header {
 		margin-left: 3.555%;
+		font-size: 0.46em;
+	}
+
+	.profit-content {
+		font-size: 0.3em;
 	}
 	
 	.sec-num {
 		width: 21.9%;
 		padding: auto;
+		font-size: 0.28em;
+	}
+
+	.sec-num-aside {
+		font-size: 0.875em;
+	}
+
+	.another-content {
+		font-size: 16px;
 	}
 
 	.footer {
 		background-image: url("../images/game_767.jpg");
+		font-size: 8px;
 	}
+
+	.foot-but-group {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin-top: calc(99em/8);
+	}
+
+	.footer-button {
+		padding: calc(10em/8);
+		border-radius: 18px;
+		margin-bottom: 7em;
+	}
+	
+
+	.footer-header-high {
+		font-size: 4em;
+	}
+
+	.footer-header-low {
+		font-size: 1.75em;
+	}
+
+	.logo-img-footer {
+		width: calc(133em/8);
+		margin-bottom: calc(10em/8);
+	}
+
 }
 
 /*tablets*/
