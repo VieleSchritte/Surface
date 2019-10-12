@@ -355,6 +355,10 @@ header, main, footer {
 		position: absolute;
 	}
 
+	.football-player {
+		width: calc(173/320*100%);
+	}
+
 	.section-img {
 		margin-left: 22.185%;
 		width: 54.065%;
