@@ -405,7 +405,8 @@ header, main, footer {
 	}
 
 	.sec-num-aside {
-		font-size: 0.875em;
+		font-size: 1.5em;
+		box-sizing: content-box;
 	}
 
 	.basketball-player {
@@ -415,6 +416,15 @@ header, main, footer {
 
 	.another-content {
 		font-size: 16px;
+	}
+
+	.square-back {
+		position: absolute;
+		top: 279em;
+		left: 2em;
+		width: 7em;
+		flex-direction: column;
+		text-align: center;
 	}
 
 	.footer {
