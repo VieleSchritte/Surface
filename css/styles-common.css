@@ -3,7 +3,6 @@
     padding: 0;
     font-family: 'Open Sans', Arial, sans-serif;
     text-decoration: none;
-    text-transform: uppercase;
     list-style: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -136,7 +135,7 @@ header, main, footer {
 }
 
 /*background-colors for points*/
-.one-one {
+.one-one-football, .one-one-basketball {
 	background-color: #fafafa;
 }
 
@@ -197,11 +196,11 @@ header, main, footer {
 }
 
 .divider::after {
-	background-color: #f6f4fa;
+	background-color: #5e42b0;
 	content: "";
 	display: block;
 	width: 100%;
-	height: 3px;
+	height: 5px;
 	margin: 0.3% auto 0;
 }
 
@@ -356,7 +355,8 @@ header, main, footer {
 	}
 
 	.football-player {
-		width: calc(173/320*100%);
+		width: 6em;
+		padding-left: 1.5em;
 	}
 
 	.section-img {
@@ -373,22 +373,29 @@ header, main, footer {
 		margin-bottom: 10.3%;
 	}
 
-	.profit-list-member {
-		padding: 18.1% 6% 18.1% 6%;
-		box-sizing: content-box;
-	}
-
 	.profit-number {
-		font-size: 0.28em;
+		font-size: 0.4em;
 	}
 
 	.profit-header {
 		margin-left: 3.555%;
-		font-size: 0.46em;
+		font-size: 0.6em;
+	}
+
+	.profit-list-member {
+		padding: 1.66em 0.4em;
+	}
+
+	.one-one-football {
+		margin-top: 8em;
+	}
+
+	.one-one-basketball {
+		margin-top: 7.3em;
 	}
 
 	.profit-content {
-		font-size: 0.3em;
+		font-size: 0.54em;
 	}
 	
 	.sec-num {
@@ -399,6 +406,11 @@ header, main, footer {
 
 	.sec-num-aside {
 		font-size: 0.875em;
+	}
+
+	.basketball-player {
+		width: 9em;
+		margin-left: 0.5em;
 	}
 
 	.another-content {
@@ -425,16 +437,20 @@ header, main, footer {
 	
 
 	.footer-header-high {
-		font-size: 4em;
+		font-size: 7em;
 	}
 
 	.footer-header-low {
-		font-size: 1.75em;
+		font-size: 3em;
 	}
 
 	.logo-img-footer {
 		width: calc(133em/8);
 		margin-bottom: calc(10em/8);
+	}
+
+	.but-img-foot {
+		width: 10em;
 	}
 
 }
